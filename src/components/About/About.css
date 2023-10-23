@@ -1,0 +1,92 @@
+
+#about {
+    height: 100vh;
+    height: max-content;
+}
+
+.about{
+    
+ 
+   padding: 100px;
+    
+}
+
+.about-me-text{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    
+}
+
+
+.container {
+    width: 100%; 
+    background-color: #ddd; 
+  
+}
+
+.skills {
+    text-align: left; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    transition: 2s;
+  }
+
+
+  .html {
+    width: 90%; 
+    background-color: #808080;
+    padding-left: 10px;
+    animation-name: barSlideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+} 
+  .css {
+    width: 80%; 
+    background-color: #808080;
+    padding-left: 10px;
+    animation-name: barSlideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+} 
+  .js {
+    width: 80%; 
+    background-color: #808080;  
+    padding-left: 10px;
+    animation-name: barSlideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+  .python {
+    width: 60%;
+     background-color: #808080; 
+      padding-left: 10px;
+      animation-name: barSlideIn;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+    } 
+  .react {
+    width: 80%;
+     background-color: #808080;  
+     padding-left: 10px;
+     animation-name: barSlideIn;
+     animation-duration: 1s;
+     animation-timing-function: ease-in-out;
+    } 
+
+  @media only screen and (max-width: 600px) {
+   
+
+  }
+
+  @keyframes barSlideIn {
+    0% {width: 0%;}
+   
+  }
