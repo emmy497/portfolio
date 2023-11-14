@@ -50,7 +50,7 @@ function About() {
             80%</div>
           </div>
           <div className="container">
-            <div className="skills js">
+            <div className="skills python">
             <i class="fa-brands fa-python fa-flip"></i>
               60%</div>
           </div>
@@ -61,8 +61,8 @@ function About() {
             </div>
           </div>
           <div className="container">
-            <div className=" skills python">
-            <i class=" fa-brands fa-python fa-flip fa-l"></i>60%</div>
+            <div className=" skills css">
+            <i class=" fa-brands fa-css3 fa-flip fa-l"></i>80%</div>
           </div>
         </div>
 

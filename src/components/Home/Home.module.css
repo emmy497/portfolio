@@ -61,6 +61,18 @@ background-repeat: no-repeat;
     padding: 50px;
 }
 
+
+.navLinks {
+    color: white;
+    text-decoration: none;
+}
+
+.navLinks:hover{
+    scale: 1.5;
+    transition: 0.7s;
+    transition-timing-function: ease-in;
+}
+
 @keyframes slideinFromTop {
     0% {top: -1000px;}
     100% {top: 0;}
